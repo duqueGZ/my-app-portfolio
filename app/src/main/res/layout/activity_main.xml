@@ -1,0 +1,54 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/CustomLayout"
+    tools:context=".MainActivity">
+
+    <TextView
+        style="@style/CustomTextView"
+        android:id="@+id/textView"
+        android:text="@string/main_title" />
+
+    <Button
+        style="@style/CustomButton"
+        android:layout_below="@+id/textView"
+        android:id="@+id/button"
+        android:text="@string/spotify_app_name"
+        android:onClick="launchSpotifyApp" />
+
+    <Button
+        style="@style/CustomButton"
+        android:layout_below="@+id/button"
+        android:id="@+id/button2"
+        android:text="@string/scores_app_name"
+        android:onClick="launchScoresApp" />
+
+    <Button
+        style="@style/CustomButton"
+        android:layout_below="@+id/button2"
+        android:id="@+id/button3"
+        android:text="@string/library_app_name"
+        android:onClick="launchLibraryApp" />
+
+    <Button
+        style="@style/CustomButton"
+        android:layout_below="@+id/button3"
+        android:id="@+id/button4"
+        android:text="@string/build_it_bigger_app_name"
+        android:onClick="launchBuildItBiggerApp" />
+
+    <Button
+        style="@style/CustomButton"
+        android:layout_below="@+id/button4"
+        android:id="@+id/button5"
+        android:text="@string/xyz_reader_app_name"
+        android:onClick="launchXYZReaderApp" />
+
+    <Button
+        style="@style/CustomButton.Orange"
+        android:layout_below="@+id/button5"
+        android:id="@+id/button6"
+        android:text="@string/capstone_app_name"
+        android:onClick="launchCapstoneApp" />
+
+</RelativeLayout>
