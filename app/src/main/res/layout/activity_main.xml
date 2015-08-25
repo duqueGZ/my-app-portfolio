@@ -12,43 +12,43 @@
     <Button
         style="@style/CustomButton"
         android:layout_below="@+id/mainTitle"
-        android:id="@+id/buttonSpotify"
-        android:text="@string/spotify_app_name"
-        android:onClick="launchSpotifyApp" />
+        android:id="@+id/buttonPopularMovies"
+        android:text="@string/popular_movies_app_name"
+        android:onClick="launchNanodegreeApp" />
 
     <Button
         style="@style/CustomButton"
-        android:layout_below="@+id/buttonSpotify"
+        android:layout_below="@+id/buttonPopularMovies"
         android:id="@+id/buttonScores"
         android:text="@string/scores_app_name"
-        android:onClick="launchScoresApp" />
+        android:onClick="launchNanodegreeApp" />
 
     <Button
         style="@style/CustomButton"
         android:layout_below="@+id/buttonScores"
         android:id="@+id/buttonLibrary"
         android:text="@string/library_app_name"
-        android:onClick="launchLibraryApp" />
+        android:onClick="launchNanodegreeApp" />
 
     <Button
         style="@style/CustomButton"
         android:layout_below="@+id/buttonLibrary"
         android:id="@+id/buttonBuildItBigger"
         android:text="@string/build_it_bigger_app_name"
-        android:onClick="launchBuildItBiggerApp" />
+        android:onClick="launchNanodegreeApp" />
 
     <Button
         style="@style/CustomButton"
         android:layout_below="@+id/buttonBuildItBigger"
         android:id="@+id/buttonXYZ"
         android:text="@string/xyz_reader_app_name"
-        android:onClick="launchXYZReaderApp" />
+        android:onClick="launchNanodegreeApp" />
 
     <Button
         style="@style/CustomButton.Orange"
         android:layout_below="@+id/buttonXYZ"
         android:id="@+id/buttonCapstone"
         android:text="@string/capstone_app_name"
-        android:onClick="launchCapstoneApp" />
+        android:onClick="launchNanodegreeApp" />
 
 </RelativeLayout>
