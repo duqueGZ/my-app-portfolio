@@ -19,20 +19,20 @@
     <Button
         style="@style/CustomButton"
         android:layout_below="@+id/buttonPopularMovies"
-        android:id="@+id/buttonScores"
-        android:text="@string/scores_app_name"
+        android:id="@+id/buttonFootballScores"
+        android:text="@string/football_scores_app_name"
         android:onClick="launchNanodegreeApp" />
 
     <Button
         style="@style/CustomButton"
-        android:layout_below="@+id/buttonScores"
-        android:id="@+id/buttonLibrary"
-        android:text="@string/library_app_name"
+        android:layout_below="@+id/buttonFootballScores"
+        android:id="@+id/buttonAlexandria"
+        android:text="@string/alexandria_app_name"
         android:onClick="launchNanodegreeApp" />
 
     <Button
         style="@style/CustomButton"
-        android:layout_below="@+id/buttonLibrary"
+        android:layout_below="@+id/buttonAlexandria"
         android:id="@+id/buttonBuildItBigger"
         android:text="@string/build_it_bigger_app_name"
         android:onClick="launchNanodegreeApp" />

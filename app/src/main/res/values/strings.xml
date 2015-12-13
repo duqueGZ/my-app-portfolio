@@ -4,8 +4,8 @@
 
     <string name="main_title">My Nanodegree Apps!</string>
     <string name="popular_movies_app_name">Popular Movies</string>
-    <string name="scores_app_name">Football Scores App</string>
-    <string name="library_app_name">Library App</string>
+    <string name="football_scores_app_name">Football Scores</string>
+    <string name="alexandria_app_name">Alexandria</string>
     <string name="build_it_bigger_app_name">Build it bigger</string>
     <string name="xyz_reader_app_name">XYZ Reader</string>
     <string name="capstone_app_name">Capstone: My Own App</string>

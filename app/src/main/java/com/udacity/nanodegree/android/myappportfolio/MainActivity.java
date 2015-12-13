@@ -6,13 +6,14 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends AppCompatActivity {
 
     private static final String LOG_TAG = MainActivity.class.getSimpleName();
 
@@ -28,8 +29,12 @@ public class MainActivity extends ActionBarActivity {
             case R.id.buttonPopularMovies:
                 appPackageName = "com.udacity.nanodegree.android.popularmovies";
                 break;
-            case R.id.buttonScores:
-            case R.id.buttonLibrary:
+            case R.id.buttonFootballScores:
+                appPackageName = "barqsoft.footballscores";
+                break;
+            case R.id.buttonAlexandria:
+                appPackageName = "it.jaschke.alexandria";
+                break;
             case R.id.buttonBuildItBigger:
             case R.id.buttonXYZ:
             case R.id.buttonCapstone:
