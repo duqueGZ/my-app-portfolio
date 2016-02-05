@@ -8,3 +8,4 @@ Right know it contains the following completed projects:
 - Popular Movies
 - Football Scores
 - Alexandria
+- Build It Bigger
