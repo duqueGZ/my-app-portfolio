@@ -49,6 +49,9 @@ public class MainActivity extends AppCompatActivity {
                 appFlavors.addAll(Arrays.asList("paid", "free"));
                 break;
             case R.id.buttonXYZ:
+                appPackageName = "com.example.xyzreader";
+                appMainActivityClassName = appPackageName + ".ui.ArticleListActivity";
+                break;
             case R.id.buttonCapstone:
             default:
                 appPackageName = null;
