@@ -53,6 +53,9 @@ public class MainActivity extends AppCompatActivity {
                 appMainActivityClassName = appPackageName + ".ui.ArticleListActivity";
                 break;
             case R.id.buttonCapstone:
+                appPackageName = "com.nanodegree.android.watchthemall";
+                appMainActivityClassName = appPackageName + ".MainActivity";
+                break;
             default:
                 appPackageName = null;
                 appMainActivityClassName = null;
