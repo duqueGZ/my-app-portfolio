@@ -9,3 +9,5 @@ Right know it contains the following completed projects:
 - Football Scores
 - Alexandria
 - Build It Bigger
+- XYZ Reader
+- WatchThemAll (series tracker): Capstone project app
